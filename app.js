@@ -53,20 +53,18 @@ function startGame() {
       dirRight = false;
     }
   });
-//   endBtn.addEventListener("click", ;
+  endBtn.addEventListener("click", );
 }
-
 
 function timer() {
-   let timeTable = [];
- for (let i = 30; i> 0; i--) {
-     let seconds = timeTable[i];
- }
- timeTable.innerText = seconds;
+  let timeTable = [];
+  for (let i = 30; i >= 0; i--) {
+    return timeTable[i];
+  }
 }
 
-function endGame() {
-
+function pointCount() {
+    
 }
 
 function draw() {
